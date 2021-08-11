@@ -1,0 +1,95 @@
+*{
+    margin:auto;
+    padding: auto;
+}
+
+/* ============================
+    COMIENZO DE LA NAVBAR
+==============================*/
+
+nav{
+    width: 100%;
+    height: 50px;
+    background: linear-gradient(#bbbbbb, #272727);
+    /* position: fixed; */
+    
+}
+
+.logo
+{
+    position: absolute;
+    font-size: 7px;
+    padding: 7px 100px;
+}
+
+.menu
+{
+    padding: 13px;
+    text-align: right;
+
+}
+
+.navbar li
+{
+ /* background-color: red; */
+ display: inline;
+ font-family: 'Montserrat', sans-serif;
+
+ text-align: center;
+ color: white;
+ font-size: 17px;
+ border-radius: 10px;
+ padding: 10px;
+}
+.navbar li:hover
+{
+    background-color: rgb(40, 127, 255);
+    border: 1px solid black;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* ============================
+    COMIENZO DEL LOGIN
+==============================*/
+
+.caja
+{
+    width: 19em;
+    height: 20em;
+    margin: 20px auto;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    border: 0.1em solid rgb(140, 127, 255);
+    border-radius: 0.6em;
+    box-shadow: 0em -0em 1.5em 0em rgba(0,0,0,0.67);
+    background-color: rgb(235, 235, 235)
+}
+
+img
+{
+    width: 5em;
+    padding: 1em;
+}
+
+
+
+input
+{
+    margin: 0.25em auto;
+    display: block;
+    text-align: center;
+    border-radius: 0.5em;
+    border: 0.13em solid  rgb(140, 127, 255);
+}
+
+.olvidaste-pw
+{
+    font-size: 0.7em;
+    margin: 1em;
+    display: inline;
+}
+
+ 
